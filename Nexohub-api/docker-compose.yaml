@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:16
+    container_name: nexo-postgres
+    environment:
+      - POSTGRES_DB=nexohub_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-dados-novos:/var/lib/postgresql/data
+
+volumes:
+  postgres-dados-novos:

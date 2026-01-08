@@ -1,0 +1,29 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Arquivos de IDE (Eclipse/STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### Arquivos de IDE (IntelliJ IDEA) ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### Arquivos de IDE (VS Code) ###
+.vscode/
+
+### Logs e Sistema ###
+*.log
+.DS_Store
+Thumbs.db
